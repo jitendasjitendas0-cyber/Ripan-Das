@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#17130f">
+<meta name="description" content="Amantran Restaurant, Tarkeshwar — Bengali, North Indian, Mughlai, biryani and Chinese favourites.">
+<title>Amantran Restaurant | Tarkeshwar</title>
+<style>
+:root{--bg:#fff8ee;--ink:#211810;--muted:#75695e;--orange:#e96e2c;--gold:#f4bd64;--green:#284a35;--line:#e9dac8;--white:#fffdf8}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:#fff8eef2;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:10px;font-weight:950;letter-spacing:-.04em;font-size:1.1rem}.mark{display:grid;place-items:center;width:42px;height:42px;border-radius:14px;background:var(--orange);color:white;font-size:1.4rem}.brand small{display:block;font-size:.58rem;letter-spacing:.19em;color:#8b7765}.links{display:flex;gap:25px;font-size:.92rem;color:#5d5044}.links a:hover{color:var(--orange)}
+.btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;padding:13px 19px;border-radius:999px;background:var(--orange);color:white;font-weight:850;border:0;cursor:pointer;font:inherit;font-weight:850;transition:.2s}.btn:hover{transform:translateY(-2px);box-shadow:0 10px 25px #e96e2c35}.btn.dark{background:var(--ink)}.btn.outline{background:transparent;border:1px solid var(--line);color:var(--ink)}.btn.green{background:#16834a}
+.hero{padding:65px 0 72px;background:radial-gradient(ellipse at 78% 28%,#f4bd6444,transparent 36%),linear-gradient(125deg,#fff8ee,#f7e5ce)}.hero-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:45px}.eyebrow,.kicker{color:var(--green);font-size:.78rem;font-weight:900;letter-spacing:.14em;text-transform:uppercase}.eyebrow:before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:#6b9c65;margin-right:8px}h1{font-size:clamp(3rem,6.4vw,5.6rem);line-height:.96;letter-spacing:-.075em;margin:20px 0}.accent{color:var(--orange)}.lead{font-size:1.08rem;line-height:1.8;color:var(--muted);max-width:550px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.subnote{margin-top:22px;font-size:.88rem;color:var(--muted)}.food-visual{min-height:400px;position:relative;display:grid;place-items:center}.plate{width:min(385px,85%);aspect-ratio:1;border-radius:50%;background:linear-gradient(140deg,#fff,#ead8c2);box-shadow:0 28px 65px #5c301c24,inset 0 0 0 14px #fff,inset 0 0 0 17px #e7d5c0;display:grid;place-items:center;transform:rotate(-8deg)}.food{width:77%;height:77%;border-radius:50%;display:grid;place-items:center;font-size:clamp(5rem,10vw,8rem);background:radial-gradient(circle at 30% 20%,#f4c66f,#b94e20 70%,#642818);border:8px solid #fff4e5;box-shadow:inset 0 0 20px #55200b70}.float{position:absolute;background:var(--white);padding:14px 16px;border-radius:17px;box-shadow:0 14px 35px #512d1b20;font-weight:850}.float small{display:block;font-weight:500;color:var(--muted);margin-top:4px}.f1{top:28px;right:0}.f2{bottom:28px;left:0}
+section{padding:78px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:25px;margin-bottom:30px}.section-head h2{font-size:clamp(2rem,4vw,3.3rem);letter-spacing:-.06em;line-height:1.04;margin:10px 0 0}.section-head p{max-width:440px;line-height:1.75;color:var(--muted);margin:0}.kicker{color:var(--orange)}
+.menu-filters{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:24px}.filter{border:1px solid var(--line);border-radius:999px;padding:10px 15px;background:transparent;color:var(--ink);font-weight:750;cursor:pointer}.filter.active,.filter:hover{background:var(--ink);border-color:var(--ink);color:white}.menu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.dish{border:1px solid var(--line);border-radius:22px;overflow:hidden;background:var(--white);transition:transform .2s}.dish:hover{transform:translateY(-3px)}.dish-art{height:150px;display:grid;place-items:center;font-size:4.3rem;background:radial-gradient(circle,#fff0d3,#e7bb8c)}.dish:nth-child(3n+2) .dish-art{background:radial-gradient(circle,#f8e4c7,#dca67a)}.dish:nth-child(3n) .dish-art{background:radial-gradient(circle,#f6d6a6,#d38d59)}.dish-body{padding:18px}.dish h3{font-size:1.05rem;margin:0 0 7px}.dish p{font-size:.9rem;line-height:1.6;color:var(--muted);margin:0}.tag{display:inline-block;font-size:.72rem;font-weight:850;color:var(--green);background:#e8f0e6;border-radius:999px;padding:5px 9px;margin-bottom:10px}.menu-foot{font-size:.82rem;color:var(--muted);margin-top:18px}
+.perks{background:#f3e7d7}.perks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.perk{background:#fffaf3;border:1px solid #e7d6c1;border-radius:22px;padding:25px}.perk-icon{font-size:1.9rem}.perk h3{margin:15px 0 8px}.perk p{color:var(--muted);line-height:1.7;margin:0}
+.visit{background:var(--green);color:white}.visit-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.visit h2{font-size:clamp(2.4rem,4.8vw,4.1rem);letter-spacing:-.06em;line-height:1.02;margin:12px 0 18px}.visit p{color:#dbe3d9;line-height:1.8}.visit .kicker{color:#f4bd79}.address-card{border:1px solid #ffffff2d;background:#ffffff0c;border-radius:24px;padding:26px}.row{display:flex;gap:14px;margin-bottom:22px}.row:last-child{margin-bottom:0}.ico{font-size:1.5rem}.row strong{display:block;margin-bottom:5px}.row span{display:block;color:#dbe3d9;line-height:1.6}.visit .actions{margin-top:24px}
+.faq{display:grid;grid-template-columns:1fr 1fr;gap:15px}.faq article{padding:22px;border:1px solid var(--line);background:var(--white);border-radius:18px}.faq h3{margin:0 0 8px}.faq p{color:var(--muted);line-height:1.65;margin:0}
+footer{padding:26px 0;background:#17130f;color:#c9bdb1;font-size:.88rem}.footer{display:flex;justify-content:space-between;gap:15px;align-items:center}.footer strong{color:white}
+@media(max-width:780px){.links{display:none}.hero{padding:48px 0}.hero-grid,.visit-grid{grid-template-columns:1fr;gap:18px}.food-visual{min-height:330px}.plate{width:min(330px,78%)}.menu-grid{grid-template-columns:repeat(2,1fr)}.section-head{align-items:flex-start;flex-direction:column}section{padding:60px 0}.perks-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.nav{height:66px}.brand{font-size:.96rem}.nav>.btn{font-size:.78rem;padding:11px 13px}.menu-grid,.perks-grid,.faq{grid-template-columns:1fr}.food-visual{min-height:300px}.float{font-size:.82rem;padding:11px 12px}.f1{top:10px}.f2{bottom:10px}.footer{align-items:flex-start;flex-direction:column}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><span class="mark">✦</span><span>AMANTRAN<small>RESTAURANT · TARKESHWAR</small></span></a>
+<nav class="links"><a href="#menu">Menu</a><a href="#about">About</a><a href="#visit">Location</a><a href="#faq">FAQs</a></nav>
+<a class="btn dark" href="https://maps.app.goo.gl/gzcKbWMAZTjufv7g6?g_st=ac" target="_blank" rel="noopener">Directions ↗</a>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+<div><div class="eyebrow">A flavourful stop in Tarkeshwar</div><h1>Good food.<br><span class="accent">Great moments.</span></h1>
+<p class="lead">Welcome to Amantran Restaurant — discover Bengali and North Indian favourites, Mughlai dishes, biryani and Chinese cuisine, all in one place.</p>
+<div class="actions"><a class="btn" href="#menu">Explore the menu ↓</a><a class="btn outline" href="https://wa.me/919733089541?text=Hello%20Amantran%20Restaurant%2C%20I%27d%20like%20to%20ask%20about%20ordering." target="_blank" rel="noopener">WhatsApp us</a></div>
+<div class="subnote">📍 Vivekananda Palli, near the bus stand, Tarkeshwar</div></div>
+<div class="food-visual" aria-label="Illustration of a delicious meal"><div class="plate"><div class="food">🍛</div></div><div class="float f1">Big flavour, local welcome<small>Bengali · Mughlai · Chinese</small></div><div class="float f2">What are you craving? <small>Let’s make it a meal</small></div></div>
+</div></section>
+<section id="menu"><div class="wrap">
+<div class="section-head"><div><div class="kicker">A little something for everyone</div><h2>Popular menu picks</h2></div><p>Browse a few ideas from the restaurant’s listed cuisine. Ask the restaurant to confirm current availability and prices.</p></div>
+<div class="menu-filters" aria-label="Filter menu"><button class="filter active" data-filter="all">All picks</button><button class="filter" data-filter="biryani">Biryani & rice</button><button class="filter" data-filter="indian">Indian favourites</button><button class="filter" data-filter="chinese">Chinese</button><button class="filter" data-filter="starter">Starters</button></div>
+<div class="menu-grid" id="menuGrid">
+<article class="dish" data-cat="biryani"><div class="dish-art">🍚</div><div class="dish-body"><span class="tag">Biryani & rice</span><h3>Amantran Special Biryani</h3><p>A restaurant-listed speciality to ask about when ordering.</p></div></article>
+<article class="dish" data-cat="indian"><div class="dish-art">🍲</div><div class="dish-body"><span class="tag">Indian favourites</span><h3>Chicken Kosha</h3><p>A Bengali-style favourite listed among the restaurant’s meal options.</p></div></article>
+<article class="dish" data-cat="chinese"><div class="dish-art">🥡</div><div class="dish-body"><span class="tag">Chinese</span><h3>Chicken Hakka Chowmein</h3><p>A noodle option for when you’re craving Indo-Chinese flavours.</p></div></article>
+<article class="dish" data-cat="starter"><div class="dish-art">🍢</div><div class="dish-body"><span class="tag">Starter</span><h3>Paneer Tikka Kebab</h3><p>A vegetarian starter listed on the restaurant’s menu.</p></div></article>
+<article class="dish" data-cat="chinese"><div class="dish-art">🍜</div><div class="dish-body"><span class="tag">Chinese</span><h3>Chilli Chicken</h3><p>A classic spicy Indo-Chinese starter to ask about.</p></div></article>
+<article class="dish" data-cat="indian"><div class="dish-art">🫓</div><div class="dish-body"><span class="tag">Indian favourites</span><h3>Tandoori Roti & Chana</h3><p>A hearty combination listed among the restaurant’s meal options.</p></div></article>
+</div>
+<p class="menu-foot">Menu details are a selection based on publicly listed dishes; this site does not show verified prices or live availability.</p>
+</div></section>
+<section class="perks" id="about"><div class="wrap"><div class="section-head"><div><div class="kicker">Why visit Amantran?</div><h2>Good food brings<br>people together.</h2></div><p>Planning lunch, dinner or a meal with friends? Use the links here to contact the restaurant and check the latest details before visiting.</p></div>
+<div class="perks-grid"><article class="perk"><div class="perk-icon">🍛</div><h3>Bengali & Indian</h3><p>Explore regional favourites, North Indian dishes and Mughlai-style options.</p></article><article class="perk"><div class="perk-icon">🍚</div><h3>Biryani cravings</h3><p>Ask about the listed chicken and mutton biryani options and combos.</p></article><article class="perk"><div class="perk-icon">🥢</div><h3>Chinese & starters</h3><p>From noodles to starters, find something for a different kind of craving.</p></article></div>
+</div></section>
+<section id="visit" class="visit"><div class="wrap visit-grid"><div><div class="kicker">Find your way here</div><h2>Your next meal<br>is calling.</h2><p>Get directions, call to ask about dishes, or message the restaurant to enquire about takeaway, delivery or a table. Availability should be confirmed directly.</p>
+<div class="actions"><a class="btn" href="https://maps.app.goo.gl/gzcKbWMAZTjufv7g6?g_st=ac" target="_blank" rel="noopener">Open Google Maps ↗</a><a class="btn green" href="https://wa.me/919733089541?text=Hello%20Amantran%20Restaurant%2C%20I%27d%20like%20to%20enquire%20about%20a%20table%20or%20an%20order." target="_blank" rel="noopener">WhatsApp enquiry</a></div></div>
+<div class="address-card"><div class="row"><div class="ico">📍</div><div><strong>Amantran Restaurant</strong><span>Vivekananda Palli, near bus stand<br>Tarkeshwar, West Bengal 712410, India</span></div></div><div class="row"><div class="ico">📞</div><div><strong>Call the restaurant</strong><span><a href="tel:+919733089541">+91 97330 89541</a></span></div></div><div class="row"><div class="ico">🕒</div><div><strong>Hours</strong><span>Check Google Maps or call for the latest opening hours before travelling.</span></div></div><div class="row"><div class="ico">💬</div><div><strong>Orders & table enquiries</strong><span>Use WhatsApp to ask about menu, current prices, takeaway, delivery or table availability.</span></div></div></div>
+</div></section>
+<section id="faq"><div class="wrap"><div class="section-head"><div><div class="kicker">Quick answers</div><h2>Before you visit</h2></div></div><div class="faq">
+<article><h3>Can I order on WhatsApp?</h3><p>You can send an enquiry using the WhatsApp button. Confirm the ordering process and availability directly with the restaurant.</p></article>
+<article><h3>Can I reserve a table?</h3><p>Message or call to ask whether a table is available for your preferred date and time.</p></article>
+<article><h3>Are prices shown here?</h3><p>No. Prices and dish availability can change, so please confirm them with the restaurant.</p></article>
+<article><h3>Where is the restaurant?</h3><p>It is listed in Vivekananda Palli, near the bus stand in Tarkeshwar, West Bengal. Use Google Maps for navigation.</p></article>
+</div></div></section>
+</main>
+<footer><div class="wrap footer"><div><strong>AMANTRAN RESTAURANT</strong> · Tarkeshwar, West Bengal</div><div>Made with care for food lovers.</div></div></footer>
+<script>
+const filters=document.querySelectorAll('.filter');
+const dishes=document.querySelectorAll('.dish');
+filters.forEach(btn=>btn.addEventListener('click',()=>{
+  filters.forEach(b=>b.classList.remove('active'));btn.classList.add('active');
+  const f=btn.dataset.filter;
+  dishes.forEach(d=>{d.style.display=(f==='all'||d.dataset.cat===f)?'':'none';});
+}));
+</script>
+</body></html>
